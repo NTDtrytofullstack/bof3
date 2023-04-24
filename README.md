@@ -36,7 +36,7 @@
 - Ở trong hàm win này khi chạy đến hàm push nó sẽ nhảy về địa chỉ ở trên , và cũng ko nhất thiết là khi truy cập đầu hàm main ta có thể truy cập vào thẳng vào hàm mov để tránh trường hợp vào câu lệnh thay đổi địa chỉ vào 1 địa chỉ ko thể chia hết cho 16 và làm nó bị lỗi.
 ![image](https://user-images.githubusercontent.com/130078745/233964630-1572a8ed-8f7d-4860-b1a3-3b81340a1ab0.png)
 ![image](https://user-images.githubusercontent.com/130078745/233965142-7fd56e21-cb78-4fd1-8993-2170e31bcc2a.png)
-- Vì vậy ta có thể nhảy đến trực tiếp tại dòng **win +5** để ko bị thay đổ địa chỉ và chia hết cho 16. 
+- Vì vậy ta có thể nhảy đến trực tiếp tại dòng **win +5** để ko bị thay đổi địa chỉ và chia hết cho 16. 
 ![image](https://user-images.githubusercontent.com/130078745/233965899-ec4ba36e-0304-49ba-905c-3eaea69f9eb7.png)
 - Sau khi sửa tools ta chạy thử và chương trình đã đúng.
 ![image](https://user-images.githubusercontent.com/130078745/233966341-382014fc-aa5c-4220-8289-5364cd07ad11.png)
